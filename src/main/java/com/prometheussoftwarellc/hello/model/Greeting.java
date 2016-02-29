@@ -10,5 +10,6 @@ import lombok.Value;
 public class Greeting {
   private final long id;
   private final long sessionCount;
+  private final long count;
   private final String content;
 }
