@@ -9,5 +9,6 @@ import lombok.Value;
 @Value
 public class Greeting {
   private final long id;
+  private final long sessionCount;
   private final String content;
 }
