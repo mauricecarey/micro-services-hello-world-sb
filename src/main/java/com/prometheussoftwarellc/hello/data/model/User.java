@@ -1,5 +1,6 @@
 package com.prometheussoftwarellc.hello.data.model;
 
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -19,5 +20,6 @@ public class User {
 
   private String name;
 
+  @Column(name="call_count")
   private Long count;
 }
